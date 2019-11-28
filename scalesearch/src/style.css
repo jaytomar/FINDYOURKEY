@@ -1,0 +1,270 @@
+*{
+  outline: none;
+}
+
+body{
+  font-family: Montserrat;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+      font-size: .8em;
+    }
+}
+
+.round button{
+  list-style: none;
+  height: 50px;
+  width: 50px;
+  background-color: crimson; /* Green background */
+  border: 0; /* Green border */
+  border-radius: 50%;
+  margin: 10px;
+  color: white; /* White text */
+  /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 500;
+  box-shadow:0 5px 5px 1px rgba(0, 0, 0, 0.2);
+  transition: all .2s ;
+}
+
+
+
+.button{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background:crimson;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+.round button:hover{
+  background-color: #f20e4b;
+  transform: scale(1.2);
+}
+
+
+.round button:active{
+
+  box-shadow:0px 0px 50px -5px darkred inset;
+}
+
+
+
+.bgroup{
+  
+  margin-left: 70px;
+}
+.agroup{
+
+}
+.btwrap{
+  display: flex;
+  /* border:2px red solid; */
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+
+}
+
+.sharps{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 10px;
+  margin-left: 33px;
+  /*border:2px blue solid; */
+  display: flex;
+  
+}
+.naturals{
+  position: relative;
+}
+
+
+.actions button{
+  list-style: none;
+  height: 40px;
+  width: 100px;
+  background-color: crimson;
+  border: 0;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin: 15px 0 25px 20px;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.actions button:hover{
+  background-color: #f20e4b;
+}
+.actions{
+  width: 100px;
+  float: right;
+}
+
+.userinput{
+  height: 35px;
+  width: 490px;
+  border: 2px black solid;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  color: crimson;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin: auto;
+}
+
+
+.result{
+  font-family: Montserrat;
+}
+
+
+
+
+.nv button{
+  border: 0;
+  background: none;
+  color: white;
+  background-color: #3B1C32;
+}
+.nv nav{
+display: flex;
+float: right;
+
+}
+
+.nv{
+  display: flex;
+  width: 100%;
+  height: 25px;
+  background: #3B1C32;
+}
+
+
+
+.resulthead{
+  text-align: center;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resulthead::after{
+  content: "";
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 5px;
+    border-bottom: 1.5px solid black;
+}
+
+
+
+
+.infocard{
+  width: 250px;
+  margin: 10px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  transition: all .5;
+}
+
+.display2{
+  width: 90%;
+  margin: auto;
+}
+
+.display{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.show{
+  margin-top: 20px;
+  font-family: inherit;
+  border: none;
+  color: crimson;
+  background: white;
+  border: 1px crimson solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  transition: all .5s;
+}
+.show:hover{
+  background: crimson;
+  color: white;
+}
+
+.headline h2{
+  text-align: center;
+  font-weight: 500;
+}
+.headline span{
+  color: crimson;
+  font-weight: 700;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .btwrap{
+    width: 385px;
+    margin: auto;
+  }
+  .infocard{
+    font-size: 10px;
+    margin: 4px;
+    width: auto;
+  }
+
+  .round button{
+    font-size: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+  }
+  .bgroup{
+    margin-left: 25px;
+  }
+  .userinput{
+    width: 80%;
+    padding: 0px;
+    border: 1.5px solid black;
+  }
+  .actions button{
+    font-size: 10px;
+    height: 25px;
+    width: 80px;
+    margin: 10px 0 15px 20px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .display{
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,16 @@
+.logo-img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img-container img{
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.main-page p{
+    text-align: center;
+    font-weight: 500;
+}
